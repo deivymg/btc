@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "packagename"
+version = "0.1.0"
+description = "Project template for data science projects"
+authors = ["Juan Lara <julara@unal.edu.co>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numpy = "^1.21.4"
+pandas = "^1.3.5"
+dash = "^2.0.0"
+tensorflow = "^2.7.0"
+jupyter = "^1.0.0"
+python-binance = "^1.0.15"
+pydantic = "^1.8.2"
+importlib = "^1.0.4"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+tensorflow = "^2.7.0"
+ipython = "^7.30.1"
+dash = "^2.0.0"
+python-binance = "^1.0.15"
+pandas = "^1.3.5"
+jupyter = "^1.0.0"
+jupytext = "^1.13.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
